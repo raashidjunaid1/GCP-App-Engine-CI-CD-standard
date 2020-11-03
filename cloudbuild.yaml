@@ -1,6 +1,6 @@
 steps:
 - name: 'ubuntu'
-  args: ['bash', './myscript.sh']
+  args: ['bash', './setEnvironmentVariables.sh']
   env:
   - '_RANDOM_VALUE=$_RANDOM_VALUE'
 - name: 'gcr.io/cloud-builders/npm'
