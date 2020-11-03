@@ -15,6 +15,6 @@
 runtime: nodejs12
 
 env_variables:
-  ENV_1: "random"
+  API_KEY: "ENV_1_VALUE"
 
 # [END gae_flex_quickstart_yaml]

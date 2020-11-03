@@ -1,1 +1,1 @@
-sed -i -e  "s/ENV_1_VALUE/$RANDOM_VALUE/g" app.yaml
+sed -i -e  "s/ENV_1_VALUE/$_RANDOM_VALUE/g" app.yaml
