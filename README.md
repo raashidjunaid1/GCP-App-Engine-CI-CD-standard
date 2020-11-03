@@ -1,1 +1,2 @@
-# Testing CI CD with GCP Cloud Build and app engine for standard env
+# tl;dr
+Testing CI CD with GCP Cloud Build and app engine for standard env
