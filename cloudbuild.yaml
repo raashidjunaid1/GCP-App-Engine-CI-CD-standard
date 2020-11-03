@@ -2,7 +2,7 @@ steps:
 - name: 'ubuntu'
   args: ['bash', './myscript.sh']
   env:
-  - 'RANDOM_VALUE=$RANDOM_VALUE'
+  - '_RANDOM_VALUE=$_RANDOM_VALUE'
 - name: 'gcr.io/cloud-builders/npm'
   args: ['install']
 - name: "gcr.io/cloud-builders/gcloud"
