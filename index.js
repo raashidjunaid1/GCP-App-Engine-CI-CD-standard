@@ -6,7 +6,7 @@ const fastify = require('fastify')({
 
 // Declare a route
 fastify.get('/', function (request, reply) {
-    reply.send({ hello: "new world 2"})
+    reply.send({ hello: process.env.API_KEY})
 })
 
 // Run the server!
